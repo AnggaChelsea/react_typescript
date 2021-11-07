@@ -1,31 +1,27 @@
+/* eslint-disable react/style-prop-object */
 import React, { Component } from 'react';
+import CanvasComponent from '../../elements/canvas';
 import './header.scss'
-import OurlistComponent from '../OurList'
 class HeaderComponenet extends Component {
   render() {
     return (
       <div>
-        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src={"https://images.unsplash.com/photo-1595511890410-3b8dc237a537?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80"} className="d-block w-100" alt="..." />
-            </div>
-            <div className="carousel-item">
-              <img src={"https://images.unsplash.com/photo-1518796745738-41048802f99a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"} className="d-block w-100" alt="..." />
-            </div>
-            <div className="carousel-item">
-              <img src={ "../../assets/pet/cat4.jpeghttps://images.unsplash.com/photo-1444464666168-49d633b86797?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"} className="d-block w-100" alt="..." />
-            </div>
+        <div className="background"></div>
+        <div className="background-texture"></div>
+        <header className="header">
+          <div className="left-content">
+            <p className="stay-home">Stay Home!!</p>
+            <h1>Be a good Calm And Let's Watch TV.</h1>
+            <p></p>
+            <p className="para">
+              Make Fun in Our Home with Our Family and keep stay At home
+              for your health, saves your self and your family Or You Can Scroll buttom let's see
+            </p>
+            <a href="http://" className="btn btn-primary">Join and Watch</a>
           </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
+          <CanvasComponent></CanvasComponent>
+        </header>
+        <script src="main.js"></script>
       </div>
     );
   }
