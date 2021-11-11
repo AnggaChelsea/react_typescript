@@ -1,6 +1,5 @@
 /* eslint-disable react/style-prop-object */
 import React, { Component } from 'react';
-import CanvasComponent from '../../elements/canvas';
 import './header.scss'
 class HeaderComponenet extends Component {
   render() {
@@ -10,16 +9,16 @@ class HeaderComponenet extends Component {
         <div className="background-texture"></div>
         <header className="header">
           <div className="left-content">
-            <p className="stay-home">Stay Home!!</p>
-            <h1>Be a good Calm And Let's Watch TV.</h1>
+            <p className="stay-home">Olah Raga ita!!</p>
+            <h1>OSI kumpulan Olahraga </h1>
             <p></p>
             <p className="para">
-              Make Fun in Our Home with Our Family and keep stay At home
-              for your health, saves your self and your family Or You Can Scroll buttom let's see
+              Di OSI kita Bisa tau tempat Olahrage, Putsal, Volley Ball, Basket Ball, dan lainnya.
+              Dan Bertemu Lawan sesuai Dan bisa Bergabung dengan Team Lain, so ayo
             </p>
-            <a href="http://" className="btn btn-primary">Join and Watch</a>
+            <a href="http://" className="btn btn-primary">Gabung Yu</a>
           </div>
-          <CanvasComponent></CanvasComponent>
+         
         </header>
         <script src="main.js"></script>
       </div>

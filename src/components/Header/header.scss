@@ -1,7 +1,7 @@
 :root {
   --blue: #14d0f0e6;
   --pink: rgba(255, 131, 195, 0.4);
-  --white: rgba(255, 255, 255, 0.9);
+  --white: white;
 }
 
 body {
@@ -12,10 +12,10 @@ body {
 }
 
 .background {
-  background-image: url(https://images.unsplash.com/photo-1554692760-4b7e52978fb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/848/469/145/football-4k-background-hd-image-wallpaper-preview.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #252746;
+  background-color: #d1d2dd2f;
   background-position: center;
   width: 100vw;
   height: 100vh;
@@ -27,8 +27,8 @@ body {
 
 .background-texture {
   background: linear-gradient(to top,
-      rgba(255, 131, 195, 0.9),
-      rgba(255, 255, 255, 0.9));
+      rgba(2, 45, 51, 0.9),
+      rgba(2, 4, 29, 0.37));
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -59,7 +59,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   margin-bottom: 0;
-  color: #8b64b4;
+  color: var(--white);
 }
 
 h1 {
@@ -67,11 +67,11 @@ h1 {
   font-weight: 900;
   font-size: 4.5rem;
   text-transform: uppercase;
-  color: #3b365e;
+  color: var(--white);
 }
 
 .para {
-  color: #3b365ecb;
+  color: var(--white);
 }
 
 button {
